@@ -1,0 +1,9 @@
+// This is placed on outside styles.scss/global scss.
+// For demo purposes only
+@import '~@material/image-list/mdc-image-list';
+
+.masonry-image-list {
+  @include mdc-image-list-masonry-columns(3);
+
+  &__item { background-color: #ccc; }
+}
